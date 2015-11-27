@@ -1,0 +1,162 @@
+a:link, a:visited,  a:active, a:hover, input[type="submit"]:hover{
+	color : inherit;
+	font-weight: normal;
+	font-style : italic;
+}
+
+a:link, a:visited,  a:active{
+	text-decoration: none;
+	border-bottom: none;
+}
+
+
+a:hover{
+	background-color : #145351;
+	color : white;
+}
+
+h1, h2, h3, caption, figcaption {
+	font-weight : normal;
+	color : #145351;
+	margin: 0 0 1em 0;
+	padding : 0 0 0 0;
+}
+
+
+
+header{
+	font-weight : normal;
+	margin : 0 0 2em 0;
+	padding : 1em 0 0 0;
+}
+
+h1{
+		display:inline;
+	font-size : 2em;
+	min-height : 70px;
+}
+
+h2{
+	max-width : 27em;
+	font-size : 1.5em;
+	padding-left : 1em;
+	border-bottom : solid 1px;
+}
+
+h3{
+	font-size : 1em;
+}
+
+
+caption, figcaption{
+	font-size : 1.5em;
+	border-top : solid 1px;
+	text-align: center;
+}
+
+body{
+	font-family: 'Actor', sans-serif;
+	margin : 1px 1px 1px 1px;
+	padding : 0 1em 0 1em;
+} 
+
+
+address, thead, th, nav.back a, input[type="submit"]{
+	background-color : #145351;
+	color : white;
+	margin : 0 0 0 0;
+	padding : 0.2em 0.2em 0.2em 0.2em;
+    border-radius: 0.2em;
+	font-style : normal;
+}
+
+input {
+	background-color : #D4D8D8;
+	border :  none;
+    border-radius: 0.2em;
+	margin : 0.5em 1em 0.5em 1em;
+	-webkit-appearance: none;
+}
+
+form.twocols{
+	display : block;
+	width : 100%;
+	padding : 0 0 0 0;
+	overflow: auto;
+}
+
+
+form.twocols label{
+	display:block;
+	text-align : right;
+	font-style : italic;
+	width : 40%;
+	float: left;
+	margin : 0 0 0 0;
+	padding : 0 1em 0 1em;
+	clear:left;
+}
+
+form.twocols input{
+	display:block;
+	text-align : left;
+	float: left;
+	margin : 0 0 0 0;
+	padding : 0 0 0 0;
+	border:none;
+}
+
+form.twocols input[type="submit"]{
+	float : right;
+	clear:both;
+	background-color : #145351;
+	margin : 0 0 0 0;
+	padding : 0.2em 0.2em 0.2em 0.2em;
+	width : auto;
+}
+
+figure{
+	margin : 0 0 0 0;
+	padding : 0 0 0 0;	
+}
+
+
+td, pre{
+		background-color : #D4D8D8;
+		margin : 0 0 0 0;
+}
+
+pre{
+    border-radius: 0.2em;
+	padding : 1em 1em 1em 1em;
+}
+
+section{
+	margin-top : 3em;
+}
+
+address{
+		max-width : 40em;
+}
+
+header.img {
+	display:inline;
+	float: right;
+}
+
+h1{
+    margin-right : 80px;	
+}
+
+p.dydra{
+	display: inline;
+	vertical-align : middle;
+}
+
+ul, ol{
+	list-style-type : circle;
+}
+
+table{
+	margin : 1em 1em 1em 1em;
+}
